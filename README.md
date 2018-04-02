@@ -1,5 +1,7 @@
 # Useful commands
 
+(Using vocab_BPE.src as the complete vocabulary which contains tokens which needs to be copied and/or generated)
+
 Test while training - 
 
 python2.7 -m nmt.nmt --copynet=True --share_vocab=True --attention=scaled_luong --src=src --tgt=trg --vocab_prefix=nmt/nmt_data/vocab_BPE  --train_prefix=nmt/nmt_data/train_BPE  --dev_prefix=nmt/nmt_data/valid_BPE  --test_prefix=nmt/nmt_data/test_BPE --out_dir=nmt/copynet_models --num_train_steps=12000 --steps_per_stats=100 --encoder_type=bi --num_layers=4 --num_units=128 --dropout=0.4 --metrics=bleu --check_special_token=False
