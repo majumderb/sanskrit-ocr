@@ -1,3 +1,19 @@
+# Useful commands
+
+Test while training - 
+
+python2.7 -m nmt.nmt --copynet=True --share_vocab=True --attention=scaled_luong --src=src --tgt=trg --vocab_prefix=nmt/nmt_data/vocab_BPE  --train_prefix=nmt/nmt_data/train_BPE  --dev_prefix=nmt/nmt_data/valid_BPE  --test_prefix=nmt/nmt_data/test_BPE --out_dir=nmt/copynet_models --num_train_steps=12000 --steps_per_stats=100 --encoder_type=bi --num_layers=4 --num_units=128 --dropout=0.4 --metrics=bleu --check_special_token=False
+
+Only training - 
+
+python2.7 -m nmt.nmt --copynet=True --share_vocab=True --attention=scaled_luong --src=src --tgt=trg --vocab_prefix=nmt/nmt_data/vocab_BPE  --train_prefix=nmt/nmt_data/train_BPE  --dev_prefix=nmt/nmt_data/valid_BPE --out_dir=nmt/copynet_models --num_train_steps=12000 --steps_per_stats=100 --encoder_type=bi --num_layers=4 --num_units=128 --dropout=0.4 --metrics=bleu --check_special_token=False
+
+Test after training - 
+
+python2.7 -m nmt.nmt --out_dir=nmt/copynet_models --inference_input_file=nmt/my_infer_file.vi --inference_output_file=nmt/copynet_models/output_infer
+
+Requirements - tesnorflow 1.5
+
 # CopyNet Implementation with Tensorflow and nmt
 
 CopyNet Paper: [Incorporating Copying Mechanism in Sequence-to-Sequence Learning](https://arxiv.org/abs/1603.06393).
