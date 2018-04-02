@@ -1,0 +1,69 @@
+# log_file=nmt/copynet_models/log_1519759046
+# Start step 0, lr 1, Wed Feb 28 00:47:37 2018
+  step 100 lr 1 step-time 0.43s wps 11.60K ppl 185.32 gN 75.16 bleu 0.00, Wed Feb 28 00:48:20 2018
+  step 200 lr 1 step-time 0.39s wps 12.70K ppl 50.53 gN 23.64 bleu 0.00, Wed Feb 28 00:48:59 2018
+  step 300 lr 1 step-time 0.36s wps 13.96K ppl 23.88 gN 10.17 bleu 0.00, Wed Feb 28 00:49:35 2018
+  step 400 lr 1 step-time 0.38s wps 12.78K ppl 3.40 gN 12.55 bleu 0.00, Wed Feb 28 00:50:14 2018
+  step 500 lr 1 step-time 0.45s wps 10.91K ppl 1.74 gN 8.18 bleu 0.00, Wed Feb 28 00:50:59 2018
+  step 600 lr 1 step-time 0.43s wps 11.63K ppl 1.49 gN 5.15 bleu 0.00, Wed Feb 28 00:51:42 2018
+  step 700 lr 1 step-time 0.41s wps 12.16K ppl 1.40 gN 4.26 bleu 0.00, Wed Feb 28 00:52:23 2018
+  step 800 lr 1 step-time 0.41s wps 11.84K ppl 1.37 gN 4.37 bleu 0.00, Wed Feb 28 00:53:05 2018
+  step 900 lr 1 step-time 0.48s wps 10.34K ppl 1.40 gN 10.99 bleu 0.00, Wed Feb 28 00:53:53 2018
+  step 1000 lr 1 step-time 0.44s wps 11.24K ppl 1.33 gN 3.54 bleu 0.00, Wed Feb 28 00:54:37 2018
+  step 1100 lr 1 step-time 0.45s wps 11.18K ppl 1.29 gN 2.94 bleu 0.00, Wed Feb 28 00:55:27 2018
+  step 1200 lr 1 step-time 0.42s wps 11.52K ppl 1.29 gN 3.56 bleu 0.00, Wed Feb 28 00:56:09 2018
+  step 1300 lr 1 step-time 0.50s wps 10.04K ppl 1.40 gN 10.32 bleu 72.52, Wed Feb 28 00:57:01 2018
+  step 1400 lr 1 step-time 0.43s wps 11.66K ppl 1.27 gN 2.75 bleu 72.52, Wed Feb 28 00:57:43 2018
+  step 1500 lr 1 step-time 0.42s wps 11.82K ppl 1.35 gN 10.22 bleu 72.52, Wed Feb 28 00:58:25 2018
+  step 1600 lr 1 step-time 0.42s wps 11.89K ppl 1.27 gN 2.96 bleu 72.52, Wed Feb 28 00:59:07 2018
+  step 1700 lr 1 step-time 0.48s wps 10.32K ppl 1.29 gN 5.30 bleu 72.52, Wed Feb 28 00:59:56 2018
+  step 1800 lr 1 step-time 0.41s wps 12.06K ppl 1.25 gN 2.95 bleu 72.52, Wed Feb 28 01:00:37 2018
+  step 1900 lr 1 step-time 0.42s wps 11.97K ppl 1.28 gN 5.05 bleu 72.52, Wed Feb 28 01:01:19 2018
+  step 2000 lr 1 step-time 0.41s wps 12.00K ppl 1.32 gN 5.50 bleu 72.52, Wed Feb 28 01:02:00 2018
+  step 2100 lr 1 step-time 0.47s wps 10.41K ppl 1.36 gN 5.83 bleu 72.52, Wed Feb 28 01:02:51 2018
+  step 2200 lr 1 step-time 0.42s wps 11.98K ppl 1.31 gN 8.99 bleu 72.52, Wed Feb 28 01:03:33 2018
+  step 2300 lr 1 step-time 0.41s wps 12.05K ppl 1.25 gN 2.45 bleu 72.52, Wed Feb 28 01:04:14 2018
+  step 2400 lr 1 step-time 0.43s wps 11.61K ppl 1.24 gN 2.59 bleu 72.52, Wed Feb 28 01:04:57 2018
+  step 2500 lr 1 step-time 0.50s wps 9.86K ppl 1.28 gN 5.98 bleu 72.52, Wed Feb 28 01:05:47 2018
+  step 2600 lr 1 step-time 0.43s wps 11.64K ppl 1.23 gN 2.59 bleu 72.52, Wed Feb 28 01:06:30 2018
+  step 2700 lr 1 step-time 0.42s wps 11.98K ppl 1.22 gN 2.31 bleu 72.52, Wed Feb 28 01:07:12 2018
+  step 2800 lr 1 step-time 0.42s wps 11.96K ppl 1.20 gN 2.27 bleu 72.52, Wed Feb 28 01:07:54 2018
+  step 2900 lr 1 step-time 0.48s wps 10.13K ppl 1.29 gN 38.50 bleu 72.52, Wed Feb 28 01:08:42 2018
+  step 3000 lr 1 step-time 0.46s wps 10.74K ppl 1.26 gN 4.26 bleu 72.52, Wed Feb 28 01:09:29 2018
+  step 3100 lr 1 step-time 0.47s wps 10.62K ppl 1.22 gN 2.58 bleu 72.52, Wed Feb 28 01:10:20 2018
+  step 3200 lr 1 step-time 0.48s wps 10.40K ppl 1.23 gN 3.06 bleu 72.52, Wed Feb 28 01:11:08 2018
+  step 3300 lr 1 step-time 0.57s wps 8.69K ppl 1.26 gN 8.89 bleu 72.52, Wed Feb 28 01:12:05 2018
+  step 3400 lr 1 step-time 0.48s wps 10.36K ppl 1.27 gN 6.63 bleu 72.52, Wed Feb 28 01:12:53 2018
+  step 3500 lr 1 step-time 0.48s wps 10.41K ppl 1.25 gN 4.98 bleu 72.52, Wed Feb 28 01:13:41 2018
+  step 3600 lr 1 step-time 0.48s wps 10.39K ppl 1.26 gN 5.32 bleu 72.52, Wed Feb 28 01:14:29 2018
+  step 3700 lr 1 step-time 0.54s wps 8.98K ppl 1.33 gN 30.43 bleu 72.52, Wed Feb 28 01:15:23 2018
+  step 3800 lr 1 step-time 0.49s wps 10.19K ppl 1.28 gN 8.61 bleu 72.52, Wed Feb 28 01:16:12 2018
+  step 3900 lr 1 step-time 0.49s wps 10.16K ppl 1.34 gN 9.47 bleu 72.52, Wed Feb 28 01:17:01 2018
+  step 4000 lr 1 step-time 0.49s wps 10.16K ppl 1.31 gN 8.84 bleu 72.52, Wed Feb 28 01:17:51 2018
+  step 4100 lr 1 step-time 0.57s wps 8.64K ppl 1.45 gN 227.94 bleu 72.52, Wed Feb 28 01:18:53 2018
+  step 4200 lr 1 step-time 0.46s wps 10.92K ppl 1.36 gN 11.70 bleu 72.52, Wed Feb 28 01:19:39 2018
+  step 4300 lr 1 step-time 82.61s wps 0.06K ppl 1.33 gN 11.03 bleu 72.52, Wed Feb 28 03:37:20 2018
+  step 4400 lr 1 step-time 36.52s wps 0.14K ppl 1.31 gN 7.28 bleu 72.52, Wed Feb 28 04:38:12 2018
+  step 4500 lr 1 step-time 105.94s wps 0.05K ppl 1.47 gN 64.52 bleu 72.52, Wed Feb 28 07:34:47 2018
+  step 4600 lr 1 step-time 0.38s wps 13.19K ppl 1.42 gN 20.79 bleu 72.52, Wed Feb 28 07:35:25 2018
+  step 4700 lr 1 step-time 0.35s wps 14.09K ppl 1.45 gN 22.99 bleu 72.52, Wed Feb 28 07:36:00 2018
+  step 4800 lr 1 step-time 0.33s wps 15.16K ppl 1.44 gN 22.50 bleu 72.52, Wed Feb 28 07:36:33 2018
+  step 4900 lr 1 step-time 0.38s wps 13.07K ppl 1.73 gN 302.62 bleu 72.52, Wed Feb 28 07:37:11 2018
+  step 5000 lr 1 step-time 0.33s wps 15.04K ppl 1.54 gN 73.82 bleu 72.52, Wed Feb 28 07:37:44 2018
+  step 5100 lr 1 step-time 0.32s wps 15.36K ppl 1.50 gN 28.18 bleu 72.52, Wed Feb 28 07:38:27 2018
+  step 5200 lr 1 step-time 0.34s wps 14.62K ppl 1.52 gN 54.37 bleu 72.52, Wed Feb 28 07:39:02 2018
+  step 5300 lr 1 step-time 0.39s wps 12.38K ppl 1.86 gN 568.77 bleu 72.52, Wed Feb 28 07:39:42 2018
+  step 5400 lr 1 step-time 0.34s wps 14.64K ppl 10.74 gN 57467.27 bleu 72.52, Wed Feb 28 07:40:16 2018
+  step 5500 lr 1 step-time 0.34s wps 14.52K ppl 2150.59 gN 1399409011.06 bleu 72.52, Wed Feb 28 07:40:51 2018
+  step 5600 lr 1 step-time 0.35s wps 14.23K ppl 3327117.91 gN 5973470154443.32 bleu 72.52, Wed Feb 28 07:41:26 2018
+  step 5700 lr 1 step-time 0.43s wps 11.45K ppl 2758811.05 gN 72015876.84 bleu 72.52, Wed Feb 28 07:42:10 2018
+  step 5800 lr 1 step-time 0.38s wps 12.97K ppl 2350865.91 gN 39195469978.15 bleu 72.52, Wed Feb 28 07:42:48 2018
+  step 5900 lr 1 step-time 0.39s wps 12.81K ppl 461647321.02 gN 1416891117339.85 bleu 72.52, Wed Feb 28 07:43:27 2018
+  step 6000 lr 1 step-time 0.39s wps 12.70K ppl 139173540099.77 gN 6489991526150.40 bleu 72.52, Wed Feb 28 07:44:07 2018
+  step 6100 lr 1 step-time 0.45s wps 10.96K ppl 337793221821.52 gN 23533594655074628.00 bleu 72.52, Wed Feb 28 07:44:57 2018
+  step 6200 lr 1 step-time 0.40s wps 12.56K ppl 13459242474404.36 gN 41317970574214.92 bleu 72.52, Wed Feb 28 07:45:36 2018
+  step 6300 overflow, stop early
+  step 6300 lr 1 step-time 0.40s wps 12.41K ppl 224983922237280911360.00 gN 56454908885.57 bleu 72.52, Wed Feb 28 07:46:17 2018
+# Final, step 6300 lr 1 step-time 0.40s wps 12.41K ppl 224983922237280911360.00 gN 56454908885.57 dev ppl 293962062503655686241517568.00, dev bleu 0.0, avg_dev bleu 24.4, Wed Feb 28 07:46:22 2018
+# Best bleu, step 1000 lr 1 step-time 0.40s wps 12.41K ppl 224983922237280911360.00 gN 56454908885.57 dev ppl 1.10, dev bleu 72.5, Wed Feb 28 07:46:24 2018
+# Averaged Best bleu, step 5000 lr 1 step-time 0.40s wps 12.41K ppl 224983922237280911360.00 gN 56454908885.57 dev ppl 1.13, dev bleu 64.6, Wed Feb 28 07:46:26 2018
