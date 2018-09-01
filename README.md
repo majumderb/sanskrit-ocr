@@ -7,7 +7,8 @@ This repository contains the data and the codes (implemented in tensorflow) for 
 nmt/nmt_data contains the data files. 
 1. Training files (train_BPE.src and train_BPE.trg) contain the BPE encoded input strings which were the output of the OCR system.
 2. Testing files (test_BPE.src and test_BPE.trg) contain the BPE encoded input strings for testing. These strings are taken from *Gita* and *Sahasranama* manuscripts.
-3. Vocabulary file vocab_BPE.src contains the shared vocabulary obtained after BPE. This vocab file can contain specific tokens which are only to be copied. In our experiement, we used the complete shared vocabulary as tokens which need to be copied and/or generated.
+3. Validation files (valid_BPE.src and valid_BPE.trg) contain the BPE encoded strings for validation.
+4. Vocabulary file vocab_BPE.src contains the shared vocabulary obtained after BPE. This vocab file can contain specific tokens which are only to be copied. In our experiement, we used the complete shared vocabulary as tokens which need to be copied and/or generated.
 
 ## Commands
 
@@ -33,9 +34,17 @@ python2.7 -m nmt.nmt --out_dir=nmt/copynet_models --inference_input_file=nmt/my_
 
 ## Remarks and Results
 
+1. After running CopyNet model for 50,000 steps, the output will be obtained in output_infer file. For each line of output in output_infer file and corresponding ground truth in test_BPE file, obtain the longest common subsequence (LCS). Calculate CRR by summing the LCS length for each line divided by total characters present in test_BPE and that will yield a CRR of 94.02%.
+
+2. In our paper, we have used a mixture of synthetic data as training set obtained from various settings which yielded a CRR of 97.01%. Here, one of the such settings are presented which yields 94.02% CRR. This is representative since all the other models yield CRRs which maintain the original order of them presented in the paper. 
+
+3. valid_BPE.src and valid_BPE.trg contain one pair of sentence. This is pre-processing step. Required number (20% of the training set) can be samppled from training files and placed in the validation files for experiments.
+
 ## CopyNet Implementation with Tensorflow and nmt
 
 CopyNet Paper: [Incorporating Copying Mechanism in Sequence-to-Sequence Learning](https://arxiv.org/abs/1603.06393).
+
+This CopyNet implementation is taken from https://github.com/lspvic/CopyNet
 
 CopyNet mechanism is wrapped with an exsiting RNN cell and used as an normal RNN cell.
 
