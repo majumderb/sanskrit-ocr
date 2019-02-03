@@ -1,6 +1,6 @@
 # Post-OCR Text Correction in Romanised Sanskrit
 
-This repository contains the data, the codes (implemented in tensorflow) and the supplementary material for the CoNLL 2018 paper ["***Upcycle* Your OCR: Reusing OCRs for Post-OCR Text Correction in Romanised Sanskrit**"](https://arxiv.org/abs/1809.02147)
+This repository contains the data, the codes (implemented in tensorflow) and the supplementary material for the CoNLL 2018 paper ["***Upcycle* Your OCR: Reusing OCRs for Post-OCR Text Correction in Romanised Sanskrit**"](http://aclweb.org/anthology/K18-1034)
 
 ## Data
 
